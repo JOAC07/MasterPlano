@@ -11,7 +11,13 @@ interface HeroProps {
 export function Hero({ lotesDisponibles, lotesTotales, onVerMasterplan }: HeroProps) {
   return (
     <section className="relative overflow-hidden bg-brand-950 text-white">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(212,169,74,0.18),transparent_55%)]" />
+      <img
+        src="/images/hero-bg.jpg"
+        alt=""
+        className="absolute inset-0 h-full w-full object-cover"
+      />
+      <div className="absolute inset-0 bg-gradient-to-t from-brand-950 via-brand-950/85 to-brand-950/55" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(212,169,74,0.22),transparent_55%)]" />
 
       <div className="relative mx-auto flex max-w-6xl flex-col gap-8 px-6 py-20 sm:py-28">
         <span className="inline-flex w-fit items-center gap-2 rounded-full bg-accent-500/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-wide text-accent-400">
@@ -19,13 +25,13 @@ export function Hero({ lotesDisponibles, lotesTotales, onVerMasterplan }: HeroPr
         </span>
 
         <h1 className="max-w-3xl font-[var(--font-display)] text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-6xl">
-          Tu lote frente al bosque,
+          Tu lote frente al lago,
           <br className="hidden sm:block" /> a un click de reservarlo.
         </h1>
 
         <p className="max-w-xl text-base text-white/70 sm:text-lg">
           Lotes con escritura, servicios y masterplan interactivo para elegir
-          la mejor ubicación dentro del barrio. Consultá disponibilidad en
+          la mejor ubicación frente al agua. Consultá disponibilidad en
           tiempo real y reservá el tuyo hoy.
         </p>
 

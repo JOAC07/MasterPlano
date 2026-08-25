@@ -55,7 +55,7 @@ export function Masterplan({ lotes, disponibles, total }: MasterplanProps) {
             Masterplan interactivo
           </span>
           <h2 className="mt-3 font-[var(--font-display)] text-3xl font-extrabold text-brand-950 sm:text-4xl">
-            Elegí tu lote en el mapa.
+            Elegí tu lote frente al lago.
           </h2>
         </div>
         <p className="font-[var(--font-display)] text-lg font-bold text-brand-900">

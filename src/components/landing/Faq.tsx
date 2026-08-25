@@ -12,7 +12,7 @@ const preguntas: Pregunta[] = [
   {
     pregunta: '¿Qué servicios tiene cada lote?',
     respuesta:
-      'Los lotes de la Etapa 1 cuentan con agua, luz, cloacas, internet y pavimento. Los de Etapa 2 están en obra: agua y luz ya disponibles, el resto se incorpora durante 2027-2028.',
+      'Los lotes de las Etapas 1 y 2, frente al lago principal, cuentan con agua, luz, cloacas, internet y pavimento. Las etapas 3 a 6 están en desarrollo: agua y luz ya disponibles, el resto se incorpora progresivamente durante 2027-2028.',
   },
   {
     pregunta: '¿Cómo funciona la financiación?',

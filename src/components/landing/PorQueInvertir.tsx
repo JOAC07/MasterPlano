@@ -29,9 +29,9 @@ const features: Feature[] = [
   },
   {
     numero: '04',
-    titulo: 'Entorno natural',
+    titulo: 'Vida junto al lago',
     descripcion:
-      'Laguna central, parque lineal y forestación nativa a metros de cada lote.',
+      'Costanera, parque lineal y espejo de agua a metros de cada lote.',
     bg: 'bg-stone-100',
   },
 ];
@@ -46,6 +46,9 @@ export function PorQueInvertir() {
         <h2 className="mt-3 max-w-xl font-[var(--font-display)] text-3xl font-extrabold text-brand-950 sm:text-4xl">
           Todo lo que necesitás para decidirte, sin sorpresas.
         </h2>
+        <p className="mt-3 max-w-xl text-slate-600">
+          Vivir frente al lago no debería tener letra chica.
+        </p>
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {features.map((f) => (

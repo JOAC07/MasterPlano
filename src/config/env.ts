@@ -1,5 +1,5 @@
 export const siteConfig = {
-  nombreProyecto: 'Costanera del Bosque',
+  nombreProyecto: 'Loteo del Lago',
   whatsappNumero: import.meta.env.VITE_WHATSAPP_NUMERO ?? '5491100000000',
   mapboxToken: import.meta.env.VITE_MAPBOX_TOKEN ?? '',
   adminUsuario: import.meta.env.VITE_ADMIN_USER ?? 'admin',

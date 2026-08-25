@@ -7,14 +7,14 @@ export function SobreElProyecto() {
             Sobre el proyecto
           </span>
           <h2 className="mt-3 font-[var(--font-display)] text-3xl font-extrabold leading-tight text-brand-950 sm:text-4xl">
-            Un barrio pensado para vivir cerca del bosque.
+            Un barrio pensado para vivir junto al lago.
           </h2>
           <p className="mt-4 text-slate-600">
-            Costanera del Bosque combina lotes con todos los servicios,
-            espacios verdes y una laguna central en un entorno natural a
-            minutos de la ciudad. Desarrollado con escrituración inmediata y
-            financiación propia, pensado para quienes buscan invertir o
-            construir su próxima casa.
+            Loteo del Lago combina lotes con todos los servicios, costanera
+            propia y vista al agua en un entorno natural a minutos de la
+            ciudad. Desarrollado con escrituración inmediata y financiación
+            propia, pensado para quienes buscan invertir o construir su
+            próxima casa frente al lago.
           </p>
         </div>
         <dl className="grid grid-cols-2 gap-6 rounded-2xl bg-brand-50 p-8">
@@ -39,7 +39,7 @@ export function SobreElProyecto() {
               Etapas
             </dt>
             <dd className="font-[var(--font-display)] text-2xl font-bold text-brand-950">
-              2
+              6
             </dd>
           </div>
           <div>

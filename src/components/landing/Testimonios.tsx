@@ -15,7 +15,7 @@ const testimonios: Testimonio[] = [
     nombre: 'Diego Ibarra',
     rol: 'Lote 003, Etapa 1',
     texto:
-      'Nos convenció el entorno con el arroyo y que los servicios ya estaban en el lote. La financiación en cuotas fue clave.',
+      'Nos convenció el entorno con el lago y que los servicios ya estaban en el lote. La financiación en cuotas fue clave.',
   },
   {
     nombre: 'Sofía Ramos',

@@ -9,14 +9,15 @@ export function Footer() {
             {siteConfig.nombreProyecto}
           </p>
           <p className="mt-2 max-w-xs text-sm">
-            Loteo con escritura inmediata y servicios, a minutos de la ciudad.
+            Loteo frente al lago, con escritura inmediata y servicios, a
+            minutos de la ciudad.
           </p>
         </div>
 
         <div className="text-sm">
           <p className="font-semibold text-white">Contacto</p>
           <p className="mt-2">WhatsApp: +{siteConfig.whatsappNumero}</p>
-          <p>info@costaneradelbosque.com</p>
+          <p>info@loteodellago.com</p>
         </div>
 
         <div className="text-sm">

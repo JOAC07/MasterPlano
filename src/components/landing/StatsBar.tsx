@@ -6,7 +6,7 @@ interface Stat {
 const stats: Stat[] = [
   { valor: '12+', etiqueta: 'Hectáreas desarrolladas' },
   { valor: '80+', etiqueta: 'Familias ya reservaron' },
-  { valor: '2', etiqueta: 'Etapas en desarrollo' },
+  { valor: '6', etiqueta: 'Etapas en desarrollo' },
   { valor: '100%', etiqueta: 'Con escritura' },
 ];
 

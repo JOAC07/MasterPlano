@@ -29,7 +29,7 @@ export const lotes: Lote[] = [
         [-58.6402622, -34.4209991],
       ]],
     },
-    imagenes: ['/images/lotes/001-1.jpg', '/images/lotes/001-2.jpg'],
+    imagenes: ['/images/lotes/lote1.jpg'],
   },
   {
     id: 'lote-002',
@@ -56,7 +56,7 @@ export const lotes: Lote[] = [
         [-58.6403262, -34.4209862],
       ]],
     },
-    imagenes: ['/images/lotes/002-1.jpg', '/images/lotes/002-2.jpg'],
+    imagenes: ['/images/lotes/lote2.jpg'],
   },
   {
     id: 'lote-003',
@@ -81,7 +81,7 @@ export const lotes: Lote[] = [
         [-58.640771, -34.4209726],
       ]],
     },
-    imagenes: ['/images/lotes/003-1.jpg'],
+    imagenes: ['/images/lotes/lote3.jpg'],
   },
   {
     id: 'lote-004',
@@ -108,7 +108,7 @@ export const lotes: Lote[] = [
         [-58.6412322, -34.4210318],
       ]],
     },
-    imagenes: ['/images/lotes/004-1.jpg'],
+    imagenes: ['/images/lotes/lote4.jpg'],
   },
   {
     id: 'lote-005',
@@ -141,7 +141,7 @@ export const lotes: Lote[] = [
         [-58.641617, -34.4211343],
       ]],
     },
-    imagenes: ['/images/lotes/005-1.jpg'],
+    imagenes: ['/images/lotes/lote5.jpg'],
   },
   {
     id: 'lote-006',
@@ -170,7 +170,7 @@ export const lotes: Lote[] = [
         [-58.6419755, -34.4212868],
       ]],
     },
-    imagenes: ['/images/lotes/006-1.jpg'],
+    imagenes: ['/images/lotes/lote6.jpg'],
   },
   {
     id: 'lote-007',
@@ -199,7 +199,7 @@ export const lotes: Lote[] = [
         [-58.6418641, -34.4219529],
       ]],
     },
-    imagenes: ['/images/lotes/007-1.jpg'],
+    imagenes: ['/images/lotes/lote1.jpg'],
   },
   {
     id: 'lote-008',
@@ -228,7 +228,7 @@ export const lotes: Lote[] = [
         [-58.6415431, -34.4217734],
       ]],
     },
-    imagenes: ['/images/lotes/008-1.jpg'],
+    imagenes: ['/images/lotes/lote2.jpg'],
   },
   {
     id: 'lote-009',
@@ -260,7 +260,7 @@ export const lotes: Lote[] = [
         [-58.6411934, -34.421646],
       ]],
     },
-    imagenes: ['/images/lotes/009-1.jpg'],
+    imagenes: ['/images/lotes/lote3.jpg'],
   },
   {
     id: 'lote-010',
@@ -296,7 +296,7 @@ export const lotes: Lote[] = [
         [-58.6406505, -34.4215585],
       ]],
     },
-    imagenes: ['/images/lotes/010-1.jpg'],
+    imagenes: ['/images/lotes/lote4.jpg'],
   },
   {
     id: 'lote-011',
@@ -331,7 +331,7 @@ export const lotes: Lote[] = [
         [-58.6423256, -34.4214918],
       ]],
     },
-    imagenes: ['/images/lotes/011-1.jpg'],
+    imagenes: ['/images/lotes/lote5.jpg'],
   },
   {
     id: 'lote-012',
@@ -371,7 +371,7 @@ export const lotes: Lote[] = [
         [-58.6425731, -34.421716],
       ]],
     },
-    imagenes: ['/images/lotes/012-1.jpg'],
+    imagenes: ['/images/lotes/lote6.jpg'],
   },
   {
     id: 'lote-013',
@@ -400,7 +400,7 @@ export const lotes: Lote[] = [
         [-58.6428121, -34.4219918],
       ]],
     },
-    imagenes: ['/images/lotes/013-1.jpg'],
+    imagenes: ['/images/lotes/lote1.jpg'],
   },
   {
     id: 'lote-014',
@@ -424,7 +424,7 @@ export const lotes: Lote[] = [
         [-58.6429557, -34.4222095],
       ]],
     },
-    imagenes: ['/images/lotes/014-1.jpg'],
+    imagenes: ['/images/lotes/lote2.jpg'],
   },
   {
     id: 'lote-015',
@@ -448,7 +448,7 @@ export const lotes: Lote[] = [
         [-58.6419075, -34.4219987],
       ]],
     },
-    imagenes: ['/images/lotes/015-1.jpg'],
+    imagenes: ['/images/lotes/lote3.jpg'],
   },
   {
     id: 'lote-016',
@@ -472,7 +472,7 @@ export const lotes: Lote[] = [
         [-58.6421424, -34.4222291],
       ]],
     },
-    imagenes: ['/images/lotes/016-1.jpg'],
+    imagenes: ['/images/lotes/lote4.jpg'],
   },
   {
     id: 'lote-017',
@@ -496,7 +496,7 @@ export const lotes: Lote[] = [
         [-58.6418433, -34.4308414],
       ]],
     },
-    imagenes: ['/images/lotes/017-1.jpg'],
+    imagenes: ['/images/lotes/lote5.jpg'],
   },
   {
     id: 'lote-018',
@@ -520,7 +520,7 @@ export const lotes: Lote[] = [
         [-58.6415767, -34.4309174],
       ]],
     },
-    imagenes: ['/images/lotes/018-1.jpg'],
+    imagenes: ['/images/lotes/lote6.jpg'],
   },
   {
     id: 'lote-019',
@@ -544,7 +544,7 @@ export const lotes: Lote[] = [
         [-58.641051, -34.4310056],
       ]],
     },
-    imagenes: ['/images/lotes/019-1.jpg'],
+    imagenes: ['/images/lotes/lote1.jpg'],
   },
   {
     id: 'lote-020',
@@ -568,7 +568,7 @@ export const lotes: Lote[] = [
         [-58.640692, -34.431029],
       ]],
     },
-    imagenes: ['/images/lotes/020-1.jpg'],
+    imagenes: ['/images/lotes/lote2.jpg'],
   },
   {
     id: 'lote-021',
@@ -593,7 +593,7 @@ export const lotes: Lote[] = [
         [-58.6403417, -34.4309985],
       ]],
     },
-    imagenes: ['/images/lotes/021-1.jpg'],
+    imagenes: ['/images/lotes/lote3.jpg'],
   },
   {
     id: 'lote-022',
@@ -617,7 +617,7 @@ export const lotes: Lote[] = [
         [-58.6411585, -34.4315684],
       ]],
     },
-    imagenes: ['/images/lotes/022-1.jpg'],
+    imagenes: ['/images/lotes/lote4.jpg'],
   },
   {
     id: 'lote-023',
@@ -641,7 +641,7 @@ export const lotes: Lote[] = [
         [-58.6408033, -34.4315837],
       ]],
     },
-    imagenes: ['/images/lotes/023-1.jpg'],
+    imagenes: ['/images/lotes/lote5.jpg'],
   },
   {
     id: 'lote-024',
@@ -665,7 +665,7 @@ export const lotes: Lote[] = [
         [-58.6405037, -34.4315959],
       ]],
     },
-    imagenes: ['/images/lotes/024-1.jpg'],
+    imagenes: ['/images/lotes/lote6.jpg'],
   },
   {
     id: 'lote-025',
@@ -689,7 +689,7 @@ export const lotes: Lote[] = [
         [-58.6401818, -34.4315654],
       ]],
     },
-    imagenes: ['/images/lotes/025-1.jpg'],
+    imagenes: ['/images/lotes/lote1.jpg'],
   },
   {
     id: 'lote-026',
@@ -713,7 +713,7 @@ export const lotes: Lote[] = [
         [-58.6413656, -34.4315593],
       ]],
     },
-    imagenes: ['/images/lotes/026-1.jpg'],
+    imagenes: ['/images/lotes/lote2.jpg'],
   },
   {
     id: 'lote-027',
@@ -737,7 +737,7 @@ export const lotes: Lote[] = [
         [-58.6416912, -34.431483],
       ]],
     },
-    imagenes: ['/images/lotes/027-1.jpg'],
+    imagenes: ['/images/lotes/lote3.jpg'],
   },
   {
     id: 'lote-028',
@@ -761,7 +761,7 @@ export const lotes: Lote[] = [
         [-58.6423016, -34.4313213],
       ]],
     },
-    imagenes: ['/images/lotes/028-1.jpg'],
+    imagenes: ['/images/lotes/lote4.jpg'],
   },
   {
     id: 'lote-029',
@@ -785,7 +785,7 @@ export const lotes: Lote[] = [
         [-58.6364716, -34.4265953],
       ]],
     },
-    imagenes: ['/images/lotes/029-1.jpg'],
+    imagenes: ['/images/lotes/lote5.jpg'],
   },
   {
     id: 'lote-030',
@@ -810,7 +810,7 @@ export const lotes: Lote[] = [
         [-58.6359892, -34.4265744],
       ]],
     },
-    imagenes: ['/images/lotes/030-1.jpg'],
+    imagenes: ['/images/lotes/lote6.jpg'],
   },
   {
     id: 'lote-031',
@@ -834,7 +834,7 @@ export const lotes: Lote[] = [
         [-58.6354646, -34.4266861],
       ]],
     },
-    imagenes: ['/images/lotes/031-1.jpg'],
+    imagenes: ['/images/lotes/lote1.jpg'],
   },
   {
     id: 'lote-032',
@@ -858,7 +858,7 @@ export const lotes: Lote[] = [
         [-58.6365139, -34.4271398],
       ]],
     },
-    imagenes: ['/images/lotes/032-1.jpg'],
+    imagenes: ['/images/lotes/lote2.jpg'],
   },
   {
     id: 'lote-033',
@@ -882,7 +882,7 @@ export const lotes: Lote[] = [
         [-58.6365647, -34.4265814],
       ]],
     },
-    imagenes: ['/images/lotes/033-1.jpg'],
+    imagenes: ['/images/lotes/lote3.jpg'],
   },
   {
     id: 'lote-034',
@@ -906,7 +906,7 @@ export const lotes: Lote[] = [
         [-58.6370555, -34.4266163],
       ]],
     },
-    imagenes: ['/images/lotes/034-1.jpg'],
+    imagenes: ['/images/lotes/lote4.jpg'],
   },
   {
     id: 'lote-035',
@@ -930,7 +930,7 @@ export const lotes: Lote[] = [
         [-58.6366324, -34.4271607],
       ]],
     },
-    imagenes: ['/images/lotes/035-1.jpg'],
+    imagenes: ['/images/lotes/lote5.jpg'],
   },
   {
     id: 'lote-036',
@@ -954,7 +954,7 @@ export const lotes: Lote[] = [
         [-58.6349822, -34.4269304],
       ]],
     },
-    imagenes: ['/images/lotes/036-1.jpg'],
+    imagenes: ['/images/lotes/lote6.jpg'],
   },
   {
     id: 'lote-037',
@@ -978,7 +978,7 @@ export const lotes: Lote[] = [
         [-58.6447994, -34.4245142],
       ]],
     },
-    imagenes: ['/images/lotes/037-1.jpg'],
+    imagenes: ['/images/lotes/lote1.jpg'],
   },
   {
     id: 'lote-038',
@@ -1002,7 +1002,7 @@ export const lotes: Lote[] = [
         [-58.6454171, -34.4244057],
       ]],
     },
-    imagenes: ['/images/lotes/038-1.jpg'],
+    imagenes: ['/images/lotes/lote2.jpg'],
   },
   {
     id: 'lote-039',
@@ -1026,7 +1026,7 @@ export const lotes: Lote[] = [
         [-58.6455467, -34.4241838],
       ]],
     },
-    imagenes: ['/images/lotes/039-1.jpg'],
+    imagenes: ['/images/lotes/lote3.jpg'],
   },
   {
     id: 'lote-040',
@@ -1051,7 +1051,7 @@ export const lotes: Lote[] = [
         [-58.6396337, -34.4235447],
       ]],
     },
-    imagenes: ['/images/lotes/040-1.jpg'],
+    imagenes: ['/images/lotes/lote4.jpg'],
   },
   {
     id: 'lote-041',
@@ -1075,7 +1075,7 @@ export const lotes: Lote[] = [
         [-58.6395864, -34.423508],
       ]],
     },
-    imagenes: ['/images/lotes/041-1.jpg'],
+    imagenes: ['/images/lotes/lote5.jpg'],
   },
   {
     id: 'lote-042',
@@ -1104,7 +1104,7 @@ export const lotes: Lote[] = [
         [-58.6392447, -34.4232211],
       ]],
     },
-    imagenes: ['/images/lotes/042-1.jpg'],
+    imagenes: ['/images/lotes/lote6.jpg'],
   },
   {
     id: 'lote-043',
@@ -1135,7 +1135,7 @@ export const lotes: Lote[] = [
         [-58.6387382, -34.4236942],
       ]],
     },
-    imagenes: ['/images/lotes/043-1.jpg'],
+    imagenes: ['/images/lotes/lote1.jpg'],
   },
   {
     id: 'lote-044',
@@ -1160,7 +1160,7 @@ export const lotes: Lote[] = [
         [-58.6387907, -34.4237179],
       ]],
     },
-    imagenes: ['/images/lotes/044-1.jpg'],
+    imagenes: ['/images/lotes/lote2.jpg'],
   },
 ];
 

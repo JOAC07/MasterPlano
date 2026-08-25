@@ -15,6 +15,7 @@ interface UseMapboxOptions {
 const LOTES_SOURCE_ID = 'lotes-source';
 const LOTES_FILL_LAYER_ID = 'lotes-fill';
 const LOTES_LINE_LAYER_ID = 'lotes-line';
+const LOTES_LABEL_LAYER_ID = 'lotes-label';
 
 const poiColors: Record<PuntoInteres['tipo'], string> = {
   render: '#d4a94a',
@@ -120,6 +121,24 @@ export function useMapbox({
         paint: {
           'line-color': '#ffffff',
           'line-width': 2,
+        },
+      });
+
+      map.addLayer({
+        id: LOTES_LABEL_LAYER_ID,
+        type: 'symbol',
+        source: LOTES_SOURCE_ID,
+        layout: {
+          'text-field': ['get', 'numero'],
+          'text-font': ['Open Sans Bold', 'Arial Unicode MS Bold'],
+          'text-size': 13,
+          'text-allow-overlap': true,
+          'text-ignore-placement': true,
+        },
+        paint: {
+          'text-color': '#ffffff',
+          'text-halo-color': 'rgba(11, 31, 22, 0.85)',
+          'text-halo-width': 1.4,
         },
       });
 

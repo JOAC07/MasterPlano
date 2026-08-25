@@ -1,93 +1,43 @@
-import { useState } from 'react';
-import { ImageWithFallback } from '../ui/ImageWithFallback';
+import { BentoGrid, type FotoCarrusel } from '../ui/BentoGrid';
 
-interface FotoGaleria {
-  titulo: string;
-  imagenUrl: string;
-}
-
-const fotos: FotoGaleria[] = [
+const fotosDesarrollo: FotoCarrusel[] = [
   { titulo: 'Vista aérea de la península', imagenUrl: '/images/gallery/aerea.jpg' },
   { titulo: 'Muelle y náutica', imagenUrl: '/images/gallery/muelle.jpg' },
-  { titulo: 'Arroyo Las Tunas', imagenUrl: '/images/gallery/arroyo.jpg' },
+  { titulo: 'Vista al lago', imagenUrl: '/images/gallery/lago.jpg' },
   { titulo: 'Club House', imagenUrl: '/images/gallery/club-house.jpg' },
   { titulo: 'Vivienda modelo', imagenUrl: '/images/gallery/vivienda-modelo.jpg' },
   { titulo: 'Parque lineal', imagenUrl: '/images/gallery/parque.jpg' },
 ];
 
+const fotosVidaEnElLago: FotoCarrusel[] = [
+  { titulo: 'El lago desde el aire', imagenUrl: '/images/lifestyle/aerea-lago.jpg' },
+  { titulo: 'Vela en el lago', imagenUrl: '/images/lifestyle/vela.jpg' },
+  { titulo: 'Club náutico', imagenUrl: '/images/lifestyle/club-nautico.jpg' },
+  { titulo: 'Escuela de vela', imagenUrl: '/images/lifestyle/escuela-vela.jpg' },
+  { titulo: 'Stand up paddle', imagenUrl: '/images/lifestyle/paddle.jpg' },
+  { titulo: 'Muelle social', imagenUrl: '/images/lifestyle/muelle-social.jpg' },
+  { titulo: 'Picnic junto al agua', imagenUrl: '/images/lifestyle/picnic.jpg' },
+];
+
 export function Galeria() {
-  const [indice, setIndice] = useState(0);
-
-  function anterior() {
-    setIndice((i) => (i - 1 + fotos.length) % fotos.length);
-  }
-  function siguiente() {
-    setIndice((i) => (i + 1) % fotos.length);
-  }
-
   return (
     <section className="mx-auto max-w-6xl px-6 py-20">
       <span className="text-xs font-semibold uppercase tracking-wide text-accent-600">
         Galería
       </span>
       <h2 className="mt-3 max-w-xl font-[var(--font-display)] text-3xl font-extrabold text-brand-950 sm:text-4xl">
-        Conocé la península en imágenes.
+        Conocé la península y la vida junto al lago.
       </h2>
+      <p className="mt-3 max-w-xl text-slate-600">
+        El desarrollo, el masterplan y todo lo que se vive a metros del agua.
+      </p>
 
-      <div className="relative mt-8 overflow-hidden rounded-2xl">
-        <div
-          className="flex transition-transform duration-500 ease-out"
-          style={{ transform: `translateX(-${indice * 100}%)` }}
-        >
-          {fotos.map((foto) => (
-            <div key={foto.titulo} className="relative w-full shrink-0">
-              <ImageWithFallback
-                src={foto.imagenUrl}
-                alt={foto.titulo}
-                label={foto.titulo}
-                className="h-64 w-full object-cover text-lg sm:h-96"
-              />
-              <p className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/60 to-transparent px-5 py-4 font-[var(--font-display)] text-sm font-semibold text-white sm:text-base">
-                {foto.titulo}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        <button
-          type="button"
-          aria-label="Foto anterior"
-          onClick={anterior}
-          className="absolute left-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-brand-950 shadow-md transition-colors hover:bg-white"
-        >
-          ‹
-        </button>
-        <button
-          type="button"
-          aria-label="Foto siguiente"
-          onClick={siguiente}
-          className="absolute right-3 top-1/2 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/90 text-brand-950 shadow-md transition-colors hover:bg-white"
-        >
-          ›
-        </button>
-      </div>
-
-      <div className="mt-2 flex justify-center gap-1">
-        {fotos.map((foto, i) => (
-          <button
-            key={foto.titulo}
-            type="button"
-            aria-label={`Ir a foto ${i + 1}`}
-            onClick={() => setIndice(i)}
-            className="flex h-9 w-9 items-center justify-center"
-          >
-            <span
-              className={`h-2 rounded-full transition-all ${
-                i === indice ? 'w-6 bg-brand-600' : 'w-2 bg-stone-100'
-              }`}
-            />
-          </button>
-        ))}
+      <div className="mt-8">
+        <BentoGrid
+          heroFotos={fotosDesarrollo}
+          secondaryFotos={fotosVidaEnElLago}
+          stat={{ valor: '44', etiqueta: 'Lotes en el masterplan' }}
+        />
       </div>
     </section>
   );
