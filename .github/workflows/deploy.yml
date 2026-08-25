@@ -29,6 +29,11 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+        env:
+          VITE_MAPBOX_TOKEN: ${{ secrets.VITE_MAPBOX_TOKEN }}
+          VITE_WHATSAPP_NUMERO: ${{ secrets.VITE_WHATSAPP_NUMERO }}
+          VITE_ADMIN_USER: ${{ secrets.VITE_ADMIN_USER }}
+          VITE_ADMIN_PASS: ${{ secrets.VITE_ADMIN_PASS }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

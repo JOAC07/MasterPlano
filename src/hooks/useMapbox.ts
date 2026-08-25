@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import mapboxgl from 'mapbox-gl';
 import type { Lote, PuntoInteres } from '../types';
 import { estadoColorExpression } from '../lib/estadoColors';
+import { assetUrl } from '../lib/assetUrl';
 
 interface UseMapboxOptions {
   token: string;
@@ -156,7 +157,7 @@ export function useMapbox({
       for (const poi of puntosInteres) {
         const popup = new mapboxgl.Popup({ offset: 16 }).setHTML(
           `<div style="max-width:220px">
-            <img src="${poi.imagenUrl}" alt="${poi.nombre}" style="width:100%;height:110px;object-fit:cover;border-radius:8px" onerror="this.style.display='none'" />
+            <img src="${assetUrl(poi.imagenUrl)}" alt="${poi.nombre}" style="width:100%;height:110px;object-fit:cover;border-radius:8px" onerror="this.style.display='none'" />
             <p style="margin:8px 0 2px;font-weight:700;font-size:13px">${poi.nombre}</p>
             <p style="margin:0;font-size:12px;color:#555">${poi.descripcion}</p>
           </div>`,

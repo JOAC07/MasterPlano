@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { assetUrl } from '../../lib/assetUrl';
 
 interface ImageWithFallbackProps {
   src: string;
@@ -21,6 +22,6 @@ export function ImageWithFallback({ src, alt, label, className = '' }: ImageWith
   }
 
   return (
-    <img src={src} alt={alt} className={className} onError={() => setBroken(true)} />
+    <img src={assetUrl(src)} alt={alt} className={className} onError={() => setBroken(true)} />
   );
 }

@@ -1,6 +1,7 @@
 import { Button } from '../ui/Button';
 import { buildWhatsappUrl, registrarClickWhatsapp, whatsappMensajeGeneral } from '../../lib/whatsapp';
 import { siteConfig } from '../../config/env';
+import { assetUrl } from '../../lib/assetUrl';
 
 interface HeroProps {
   lotesDisponibles: number;
@@ -12,7 +13,7 @@ export function Hero({ lotesDisponibles, lotesTotales, onVerMasterplan }: HeroPr
   return (
     <section className="relative overflow-hidden bg-brand-950 text-white">
       <img
-        src="/images/hero-bg.jpg"
+        src={assetUrl('/images/hero-bg.jpg')}
         alt=""
         className="absolute inset-0 h-full w-full object-cover"
       />
