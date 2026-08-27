@@ -34,6 +34,8 @@ jobs:
           VITE_WHATSAPP_NUMERO: ${{ secrets.VITE_WHATSAPP_NUMERO }}
           VITE_ADMIN_USER: ${{ secrets.VITE_ADMIN_USER }}
           VITE_ADMIN_PASS: ${{ secrets.VITE_ADMIN_PASS }}
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
