@@ -1171,7 +1171,7 @@ export const puntosInteres: PuntoInteres[] = [
     tipo: 'servicio',
     lat: -34.42130,
     lng: -58.63985,
-    imagenUrl: '/images/poi/acceso-principal.jpg',
+    imagenUrl: '/images/poi/acceso-principal.svg',
     descripcion: 'Ingreso vehicular y peatonal a la península, con garita de seguridad 24hs.',
   },
   {
@@ -1180,7 +1180,7 @@ export const puntosInteres: PuntoInteres[] = [
     tipo: 'amenity',
     lat: -34.42150,
     lng: -58.64230,
-    imagenUrl: '/images/poi/muelle.jpg',
+    imagenUrl: '/images/gallery/muelle.jpg',
     descripcion: 'Muelle comunitario para embarcaciones menores, en la punta de la península.',
   },
   {
@@ -1189,7 +1189,7 @@ export const puntosInteres: PuntoInteres[] = [
     tipo: 'turistico',
     lat: -34.42225,
     lng: -58.64111,
-    imagenUrl: '/images/poi/arroyo.jpg',
+    imagenUrl: '/images/gallery/lago.jpg',
     descripcion: 'Curso de agua navegable que bordea la península por sus tres frentes.',
   },
   {
@@ -1198,7 +1198,7 @@ export const puntosInteres: PuntoInteres[] = [
     tipo: 'render',
     lat: -34.42105,
     lng: -58.64111,
-    imagenUrl: '/images/poi/render-fachada.jpg',
+    imagenUrl: '/images/gallery/vivienda-modelo.jpg',
     descripcion: 'Propuesta arquitectónica sugerida para los lotes de la península.',
   },
 ];
